@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f9b6d4ed7da6406aa6f314af6e1e9a3d" Name="Diagram1">
+        <EntityTypeShape EntityType="WADEXAMModel.Class" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WADEXAMModel.Exam" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WADEXAMModel.Faculty" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WADEXAMModel.Status" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WADEXAMModel.Subject" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="WADEXAMModel.FK__Exam__classRoom__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="WADEXAMModel.FK__Exam__examStatus__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="WADEXAMModel.FK__Exam__examSubjec__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="WADEXAMModel.FK__Exam__faculty__37A5467C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
